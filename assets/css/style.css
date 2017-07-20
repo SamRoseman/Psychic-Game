@@ -1,0 +1,32 @@
+body {
+	background-color: grey;
+	image: url(../images/crystalball.jpg);
+	color: white;
+
+}
+
+h1 {
+
+	font-size: 75px;
+	font-family: 'Cinzel', serif;
+
+}
+
+h2 {
+	font-size: 40px;
+	font-family: 'Megrim', cursive;
+}
+
+h3{
+	font-size: 35px;
+	font-family: 'Poiret One', cursive;	
+}
+
+.col-md-12 {
+	margin: 20px;
+	text-align: center;
+}
+
+.responsive {
+	width: 100%;
+}
