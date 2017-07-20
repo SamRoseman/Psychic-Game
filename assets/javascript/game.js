@@ -1,4 +1,3 @@
-
 		var user;
 		var comp;
 		var math;
@@ -12,6 +11,7 @@
 		var lossesText = document.getElementById("losses-text");
 		var guessesText = document.getElementById("guesses-text");
 		var userArray = [];
+		
 		
 
 		// set function that sets math to a random number 0 - 25
@@ -61,12 +61,12 @@
 				startOver();
 			}
 					
-				console.log("Wins:" + wins);
-				console.log("Losses:" +losses);
-				console.log("Comp Answer:" + comp);
-				console.log("Guesses Left:" + guessesLeft);
-				console.log("User Input:" + user);
-				console.log("--------")
+				// console.log("Wins:" + wins);
+				// console.log("Losses:" +losses);
+				// console.log("Comp Answer:" + comp);
+				// console.log("Guesses Left:" + guessesLeft);
+				// console.log("User Input:" + user);
+				// console.log("--------")
 	
 	guessesText.textContent = guessesLeft;
 	lossesText.textContent = losses;
