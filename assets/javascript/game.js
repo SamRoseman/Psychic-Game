@@ -18,14 +18,14 @@
 		function getLetter() {
 			math = Math.floor(Math.random() * 25);
 		}
-
+		// sets a function to start the game over 
 		function startOver() {
 			guessesLeft = 10;
 			getLetter();
 			userArray = [];
 		}
 
-		// calling the function
+		// calling the function for the computer to pick its letter
 		getLetter();
 
 		// listens for user key press
@@ -43,7 +43,6 @@
 					
 		
 		// if the value of user equals the value of comp, alert "winner" and advance wins by 1
-		// This works but it only advances once the next key is pressed.
 			if (user === comp) {
 				wins++;
 				alert("winner");
@@ -53,7 +52,7 @@
 			else if (user !== comp) {
 				guessesLeft--;
 			}
-		// this does not work, allows count to go below zero and does not alert or advance losses on zero	
+		
 		// if the number of guesses equals zero, advance losses by 1 and alert "you lost"
 			if (guessesLeft === 0) {
 				losses++;
